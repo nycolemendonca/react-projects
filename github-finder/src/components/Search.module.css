@@ -1,5 +1,5 @@
 .search {
-  background-color: #FFFFFF2B;
+  background-color: #0000008B;
   padding: 2rem;
   margin: 1rem 0;
   border-radius: 1rem;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.search p { color: #FFFFFF8B; }
+.search p { color: #FFFFFF; }
 
 .inputField {
   padding-top: 1rem;

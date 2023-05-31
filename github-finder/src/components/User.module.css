@@ -1,5 +1,5 @@
 .user {
-  background-color: #FFFFFF2B;
+  background-color: #0000008B;
   padding: 2rem;
   margin: 1rem 0;
   border-radius: 1rem;
@@ -10,7 +10,7 @@
 }
 
 .user img {
-  width: 70%;
+  width: 220px;
   border-radius: 50%;
   border: 4px solid #FFFFFF;
   margin-bottom: 1rem;
