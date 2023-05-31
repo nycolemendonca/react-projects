@@ -1,0 +1,21 @@
+:root {
+  --primary-bg-color: #0D1117;
+  --primary-font-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary-font-color);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  padding: 2rem;
+}
+
+p { text-align: center; }
+
+a { text-decoration: none; }

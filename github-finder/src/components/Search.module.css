@@ -1,0 +1,39 @@
+.search {
+  background-color: #FFFFFF2B;
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search p { color: #FFFFFF8B; }
+
+.inputField {
+  padding-top: 1rem;
+  display: flex;
+  gap: .6rem;
+}
+
+.inputField input, .inputField button {
+  padding: 1rem;
+  background-color: #050709;
+  border-radius: 1rem;
+  border: none;
+}
+
+.inputField button { 
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  transition: all .3s ease;
+}
+
+.inputField button:hover {
+  background-color: #8F9296;
+}
+
+
+
