@@ -1,5 +1,4 @@
 import { UserProps } from "../types/user";
-import { Link } from 'react-router-dom';
 
 import { MdLocationPin } from 'react-icons/md';
 import classes from './User.module.css';
