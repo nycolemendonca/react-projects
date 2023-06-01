@@ -1,9 +1,7 @@
 import { UserProps } from "../types/user";
-
-import { MdLocationPin } from 'react-icons/md';
-
 import { Link } from 'react-router-dom';
 
+import { MdLocationPin } from 'react-icons/md';
 import classes from './User.module.css';
 
 const User = ({avatar_url, login, location, followers, following}: UserProps) => {
@@ -29,7 +27,8 @@ const User = ({avatar_url, login, location, followers, following}: UserProps) =>
       </div>
 
       {/* Resolve - Redirect Error */}
-      <Link to={`/repos/${login}`} className={classes.button}>See more projects</Link>
+      {/* <Link to={`/repos/${login}`} className={classes.button}>See more projects</Link> */}
+      <a target='_blank' href={`https://github.com/${login}`} className={classes.button}>See more projects</a>
     </div>
   )
 }
